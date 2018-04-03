@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM docker:17
 
 ENV \
     BUILD_DEPS="gettext"  \
