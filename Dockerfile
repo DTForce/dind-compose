@@ -2,7 +2,7 @@ FROM docker:latest
 
 ENV \
     BUILD_DEPS="gettext"  \
-    RUNTIME_DEPS="libintl py-pip tar bash"
+    RUNTIME_DEPS="libintl py-pip tar bash git"
 
 RUN \
     apk add --update $RUNTIME_DEPS && \
